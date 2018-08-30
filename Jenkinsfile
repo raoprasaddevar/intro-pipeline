@@ -17,6 +17,12 @@ pipeline {
           }
         }
 
+        echo 'test'
+      }
+    }
+    stage('printasdasdasd') {
+      steps {
+        echo 'printtt'
       }
     }
   }
