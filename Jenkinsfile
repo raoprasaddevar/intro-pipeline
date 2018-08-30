@@ -11,10 +11,5 @@ pipeline {
         echo 'ABC'
       }
     }
-    stage('deplay') {
-      steps {
-        mail(subject: 'test', body: 'test from junkins', from: 'prasad.devar@officedepot.com', to: 'prasad.devar@officedepot.com')
-      }
-    }
   }
 }
